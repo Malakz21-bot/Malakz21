@@ -320,12 +320,12 @@ export default {
       
       // Try to get GitHub data (but don't let it block the response)
       let githubAvatar = "https://avatars.githubusercontent.com/u/10639145";
-      let githubName = "7silent-wolf"; // UPDATED
-      let githubUrl = "https://github.com/7silent-wolf/wolf.git"; // UPDATED
+      let githubName = "7silent-wolf";
+      let githubUrl = "https://github.com/7silent-wolf/silentwolf.git"; // UPDATED: silentwolf.git
       
       try {
         const { data: githubData } = await axios.get(
-          "https://api.github.com/users/7silent-wolf", // UPDATED
+          "https://api.github.com/users/7silent-wolf",
           { 
             headers: { 
               "User-Agent": "Silent-Wolf-Bot",
@@ -335,8 +335,8 @@ export default {
           }
         );
         githubAvatar = githubData.avatar_url;
-        githubName = githubData.name || "7silent-wolf"; // UPDATED
-        githubUrl = "https://github.com/7silent-wolf/wolf.git"; // UPDATED
+        githubName = githubData.name || "7silent-wolf";
+        githubUrl = "https://github.com/7silent-wolf/silentwolf.git"; // UPDATED: silentwolf.git
       } catch (githubErr) {
         console.log("GitHub API failed, using defaults");
       }
@@ -362,7 +362,7 @@ export default {
               body: `Uptime: ${days}d ${hours}h ${minutes}m`,
               mediaType: 1,
               thumbnailUrl: githubAvatar,
-              sourceUrl: githubUrl, // UPDATED
+              sourceUrl: githubUrl, // UPDATED: silentwolf.git
               renderLargerThumbnail: true,
               showAdAttribution: false
             },
