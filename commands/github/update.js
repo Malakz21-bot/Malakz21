@@ -771,7 +771,7 @@ const require = createRequire(import.meta.url);
 // Updated with your repositories
 const UPDATE_ZIP_URL = "https://github.com/7-s-w/k/archive/refs/heads/main.zip";
 const GIT_REPO_URL = "https://github.com/7-s-w/k.git";
-const OWNER_REPO_URL = "https://github.com/7silent-wolf/wolf.git";
+const OWNER_REPO_URL = "https://github.com/7silent-wolf/silentwolf.git";
 
 // Timeout configurations
 const DOWNLOAD_TIMEOUT = 120000; // 2 minutes
