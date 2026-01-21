@@ -217,7 +217,7 @@ export default {
         // Updated text with clean repository info
         let txt = `╭─⌈ \`WOLF REPOSITORY\` ⌋\n`;
         txt += `│\n`;
-        txt += `│ ✧ *Name* : ${data.name || "Silent Wolf Bot"}\n`;
+        txt += `│ ✧ *Name* : ${data.name || "Silent Wolf "}\n`;
         txt += `│ ✧ *Owner* : ${owner}\n`;
         txt += `│ ✧ *Stars* : ${data.stargazers_count || 0} ⭐\n`;
         txt += `│ ✧ *Forks* : ${data.forks_count || 0} 🍴\n`;
@@ -227,12 +227,12 @@ export default {
        // txt += `│ ✧ *Language* : ${data.language || 'JavaScript'}\n`;
         txt += `│ ✧ *Repository* : ${repoUrl}\n`;
         //txt += `│\n`;
-        txt += `│ *Description* :${data.description || 'A powerful WhatsApp bot with 400+ commands'}\n;`;
+        txt += `│ *Description* :${data.description || 'A powerful WhatsApp bot with 400+ commands'}\n`;
         //txt += `│ ${data.description || 'A powerful WhatsApp bot with 400+ commands'}\n`;
         //txt += `│\n`;
         txt += `│ Hey ${mentionTag}! 👋\n`;
-        txt += `│ _Official Wolf_ 🎉`;
-        txt += `│ *Please fork and star the repo!* ⭐\n`;
+        txt += `│ _*Don't forget*_ 🎉`;
+        txt += `│ *to fork and star the repo!* ⭐\n`;
         txt += `╰───────────────`;
 
         // Send message with image
