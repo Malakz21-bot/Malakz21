@@ -26,11 +26,13 @@
 
 
 <div align="center">    
-<strong> DEPLOY WOLFBOT </strong>
+<strong> 🚀 DEPLOY WOLFBOT ON HEROKU </strong>
     <br>
-  <a href="https://hilda-project.vercel.app/register">
-    <img src="https://img.shields.io/badge/Deploy%20WOLFBOT-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkgreen" alt="FORK REPO"/>
+  <a href="https://heroku.com/deploy?template=https://github.com/7silent-wolf/silentwolf">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" width="200"/>
   </a>
+  <br>
+  <sub><i>One-click Heroku deployment</i></sub>
 </div>
 
 <br>
