@@ -6,7 +6,7 @@
   "keywords": ["whatsapp", "bot", "wolfbot", "baileys", "session"],
   "env": {
     "SESSION_ID": {
-      "description": "REQUIRED: Your WhatsApp session in WOLF-BOT format\n",
+      "description": "REQUIRED: Your WhatsApp session ID\n",
       "value": "WOLF-BOT:",
       "required": true
     }
@@ -16,7 +16,7 @@
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
   ],
   "formation": {
