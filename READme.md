@@ -28,7 +28,7 @@
 <div align="center">
     <strong>DEPLOY WOLFBOT ON HEROKU</strong>
     <br>
-    <a href="https://69792248c0980522e8cc315a--inspiring-genie-ebae09.netlify.app/" target="_blank">
+    <a href="https://inspiring-genie-ebae09.netlify.app/" target="_blank">
         <img src="https://img.shields.io/badge/DEPLOY%20WOLFBOT-100000?style=for-the-badge&logo=heroku&logoColor=white&labelColor=darkgreen&color=darkgreen" alt="DEPLOY WOLFBOT"/>
     </a>
     <br>
